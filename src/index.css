@@ -1,0 +1,45 @@
+
+* {
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing: content-box;
+    font-family: "poppins";
+  }
+  html, body {
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  body{
+    font-family: "poppins";  
+  }
+  @font-face {
+    font-family: "whiskeygirls";
+    src: url("./assets/fonts/whiskeygirls.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "poppins-bold";
+    src: url("./assets/fonts/Poppins-Bold.ttf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "poppins-semibold";
+    src: url("./assets/fonts/Poppins-SemiBold.ttf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "poppins-medium";
+    src: url("./assets/fonts/Poppins-Medium.ttf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "poppins";
+    src: url("./assets/fonts/Poppins-Regular.ttf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  

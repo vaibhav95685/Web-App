@@ -1,0 +1,225 @@
+.suggestion-body {
+  min-height: 70vh;
+}
+
+*:focus {
+  outline: none;
+}
+.suggestion {
+}
+.make-suggestion {
+  font-size: 22px;
+  font-weight: 600px;
+  font: normal normal 600 22px/33px Poppins;
+}
+.form-box {
+  border: 1px solid #d5d5d5;
+  border-radius: 16px;
+  /* margin-top: 40px; */
+  margin-top: 48px;
+}
+.text-area {
+  min-height: 105px;
+  resize: none;
+}
+.text-area::placeholder {
+  transform: translateY(-5px);
+}
+.sugg-input {
+/* 
+  font: normal normal medium 14px/21px Poppins; */
+  /* width: 100%; */
+
+  /* width: 432px;
+  height: 22px; */
+  width: 456px;
+  height: 34px;
+  padding: 6px 12px;
+  display: block;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  margin: 10px 0px 21px 0px;
+  border: 0px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+.send-button {
+  margin-top: 12px;
+  width: 146px;
+  border: 0px;
+  height: 42px;
+  background: #366eef 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  color: white;
+  text-align: center;
+}
+.sugg-input :focus {
+  outline: none !important;
+}
+.form-inner {
+  margin: 31px 34px 49px 34px;
+}
+.butt-outer {
+  text-align: right;
+}
+.label-key {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #191919;
+  font-family: Poppins;
+  font-weight: bold;
+  opacity: 1;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.form-inner input::-webkit-input-placeholder {
+  /* WebKit browsers */
+  text-align: left;
+  font: normal normal medium 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #c3c3c3;
+  opacity: 1;
+
+}
+.form-inner textarea::-webkit-input-placeholder {
+  /* WebKit browsers */
+  text-align: left;
+  padding-top: 7px;
+  font: normal normal medium 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #c3c3c3;
+  opacity: 1;
+}
+@media screen and (min-width: 764px) {
+  .suggestion {
+    width: 524px;
+    margin: 66px auto 76px auto;
+    /* margin: 66px 861px 76px 535px; */
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .suggestion {
+    width: 524px;
+    margin: 66px auto;
+  }
+}
+@media screen and (max-width: 577px) {
+  .make-suggestion {
+    margin-left: 11.2px !important;
+  }
+  .suggestion {
+    /* margin: 0px 16px; */
+    width: 100%;
+  }
+  .sugg-input {
+    width: 100%;
+    padding: 6px 12px;
+  }
+  .send-button {
+    width: 100%;
+  }
+  .form-box {
+    margin-top: 22px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
+.label-key {
+}
+@media only screen and (max-width: 426px) {
+  .make-suggestion {
+    font: normal normal 600 18px/27px Poppins;
+  }
+  .label-key {
+    text-align: left;
+    line-height: 21px;
+    color: #191919;
+    font: normal normal bold 14px/21px Poppins;
+  }
+  .form-inner{
+    margin: 12px 16px 49px 16px;
+  }
+  .form-inner input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    text-align: left;
+    font: normal normal medium 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #c3c3c3;
+    opacity: 1;
+    padding-left: 12px;
+  }
+  .form-inner textarea::-webkit-input-placeholder {
+    /* WebKit browsers */
+    text-align: left;
+    padding-top: 7px;
+    font: normal normal medium 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #c3c3c3;
+    opacity: 1;
+    padding-left: 12px;
+  }
+  .suggestion {
+    margin: 75px auto;
+    width: 100%;
+    max-width: 97%;
+  }
+  .send-button{
+    width: 146px;
+    height: 42px;
+  }
+}
+
+@media only screen and (min-width: 427px) and (max-width: 768px) {
+  .suggestion {
+    width: 100%;
+    max-width: 89%;
+    margin: 41px auto;
+  }
+  .sugg-input {
+    width: 100%;
+  }
+  .make-suggestion {
+    text-align: left;
+    font: normal normal 600 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+  }
+  .label-key {
+    text-align: left;
+    color: #191919;
+    font: normal normal bold 14px/21px Poppins;
+  }
+  .form-inner input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    text-align: left;
+    font: normal normal medium 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #c3c3c3;
+    opacity: 1;
+    margin-left: 12px;
+  }
+  .sugg-input{
+    height: 42px;
+  }
+  .form-inner textarea::-webkit-input-placeholder {
+    /* WebKit browsers */
+    text-align: left;
+    padding-top: 7px;
+    font: normal normal medium 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #c3c3c3;
+    opacity: 1;
+    margin-left: 12px;
+  }
+  .form-box{
+    margin-top: 39px;
+  }
+}

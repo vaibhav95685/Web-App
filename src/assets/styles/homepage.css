@@ -1,0 +1,722 @@
+.homepage .banner {
+  background-image: url("../images/Banner.png");
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  padding-top: 115px;
+  padding-bottom: 95px;
+  margin-bottom: 177px;
+}
+.homepage .newbanner{
+  background-image: url("../images/BannerImage.svg");
+  padding-top: 84px !important;
+}
+
+.new-home-left-touch{
+  width: 65%;
+}
+.homepage .right-slider .newhomecard{
+  width: auto !important;
+}
+.homepage .left-text .newhometext{
+  line-height: 33px!important;
+}
+
+.homepage .left-text .second{
+  display: flex!important;
+  align-items: center !important;
+  justify-content: space-between!important;
+width: auto !important;
+height: 54px!important;
+background: #FFFFFF 0% 0% no-repeat padding-box !important;
+color: #031527!important;
+}
+.homepage .left-text .second:hover{
+  background-color: #016dd9 !important;
+  color: white!important;
+}
+.homepage .banner .inner-width {
+  margin-left: 126px;
+  margin-right: 100px;
+}
+.homepage .left-text .heading {
+  font-family: "poppins-semibold";
+  font-size: 48px;
+  line-height: 70px;
+  color: #ffffff;
+  margin-bottom: 22px;
+  padding-top: 81px;
+}
+.homepage .left-text .newHomeHeading {
+  font-size: 2.82vw!important;
+  line-height: 81px!important;
+  color: #ffffff;
+  margin-bottom: 24px;
+  padding-top: 81px;
+}
+.homepage .left-text .text {
+  font-family: "poppins-medium";
+  font-size: 22px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-bottom: 45px;
+}
+.homepage .left-text .btn-custom {
+  font-family: "poppins-medium";
+  font-size: 18px;
+  width: 137px;
+  height: 44px;
+  color: #ffffff;
+  background: #f8f8f800;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin-right: 32px;
+}
+.homepage .left-text .btn-custom:hover {
+  color: #141520;
+  background-color: #ffffff;
+}
+.homepage .right-slider .card {
+  width: 48.603%;
+  box-shadow: 0px 3px 9px #0000000d;
+  border-radius: 12px;
+  margin-right: 22px;
+  margin-bottom: 42px;
+  /* background-color: #ffffff !important; */
+}
+.homepage .right-slider .card:nth-child(even) {
+  margin-right: 0px;
+}
+.homepage .right-slider .card-img-top {
+  width: 100%;
+  height: 273px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+.homepage .right-slider .card .profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.homepage .right-slider .card .title {
+  font-family: "poppins-semibold";
+  font-size: 13px;
+  line-height: 19px;
+  color: #585858;
+  margin-bottom: 2px;
+  text-align: left;
+  /* min-height: 45px; */
+}
+.homepage .right-slider .card .description {
+  font-family: "poppins-semibold";
+  font-size: 14px;
+  line-height: 19px;
+  color: #585858;
+  margin-bottom: 2px;
+}
+.owl-theme .owl-dots .owl-dot span {
+  border: 1px solid #d5d5d5;
+  background: #d5d5d500;
+  width: 12px;
+  height: 12px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #ffffff;
+}
+.homepage .create-sell-nft {
+  margin-bottom: 241px;
+}
+.homepage .create-sell-nft .inner-width {
+  width: 73.4%;
+  margin: 0 auto;
+}
+.homepage .create-sell-nft .heading {
+  font-family: "poppins-bold";
+  font-size: 32px;
+  line-height: 48px;
+  color: #191919;
+  margin-bottom: 66px;
+  text-align: center;
+}
+.homepage .create-sell-nft .card {
+  width: 294px;
+  height: 294px;
+  background: #f7f7f7;
+  border-radius: 19px;
+  padding: 29px 27px 34.41px 28px;
+  margin-right: 5%;
+  text-align: center;
+}
+.homepage .create-sell-nft .card:last-child {
+  margin-right: 0px;
+}
+.homepage .create-sell-nft .card .card-img-top {
+  width: 89px;
+  height: 89px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+
+}
+
+ .icon-hover {
+  width: 89px;
+  height: 89px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  transition: transform .2s ; /* Animation */
+}
+ .icon-hover:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5) ; /* Safari 3-8 */
+  transform: scale(1.5) ; 
+}
+.homepage .create-sell-nft .card-title {
+  font-family: "poppins-semibold";
+  font-size: 18px;
+  line-height: 27px;
+  color: #191919;
+  margin-bottom: 13.59px;
+}
+.homepage .create-sell-nft .card-text {
+  font-family: "poppins-medium";
+  font-size: 16px;
+  line-height: 25px;
+  color: #191919;
+  margin-bottom: 0px;
+}
+.homepage .why-marketplace {
+  background-color: #366def08;
+  padding-top: 125px;
+  padding-bottom: 181px;
+  margin-bottom: -40px;
+}
+.homepage .why-marketplace .inner-width {
+  width: 73.4%;
+  margin: 0 auto;
+}
+.homepage .why-marketplace .heading-why {
+  font-family: "poppins-bold";
+  font-size: 32px;
+  line-height: 48px;
+  color: #191919;
+  margin-bottom: 97px;
+  text-align: center;
+}
+.homepage .why-marketplace .media {
+  background-color: #ffffff;
+  width: 396px;
+  padding: 28px 0px;
+  margin-right: 115px;
+  margin-bottom: 54px;
+  border-radius: 19px;
+}
+.homepage .why-marketplace .media:nth-child(3n + 2) {
+  margin-right: 90px;
+}
+.homepage .why-marketplace .media:nth-child(3n + 3) {
+  margin-right: 0px;
+}
+.homepage .why-marketplace .inner-width {
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 1918px) {
+  .homepage .right-slider .card {
+    width: 48%;
+  }
+  .homepage .right-slider .NewHomeNFTCard {
+    width: auto!important;
+  }
+  .homepage .create-sell-nft .inner-width {
+    width: 87%;
+  }
+  .homepage .why-marketplace .inner-width {
+    width: 87%;
+  }
+  .homepage .why-marketplace .media {
+    margin-right: 90px;
+  }
+}
+@media only screen and (max-width: 1599px) {
+  .homepage .banner .inner-width {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .homepage .create-sell-nft {
+    margin-bottom: 90px;
+  }
+  .homepage .create-sell-nft .inner-width {
+    width: 95%;
+  }
+  .homepage .why-marketplace {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .homepage .why-marketplace .inner-width {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 1456px) {
+  .homepage .create-sell-nft .card {
+    margin-right: 2%;
+  }
+  .homepage .why-marketplace .media,
+  .homepage .why-marketplace .media:nth-child(3n + 2) {
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .homepage .right-slider .card {
+    width: 47%;
+  }
+  .homepage .left-text .heading {
+    font-size: 36px;
+  }
+  .homepage .why-marketplace .media {
+    width: 30%;
+  }
+  .homepage .create-sell-nft .card {
+    width: 22%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1052px) {
+  .homepage .why-marketplace .media,
+  .homepage .why-marketplace .media:nth-child(3n + 2) {
+    margin-right: 30px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .mob-heading {
+    display: none;
+  }
+  .button-hide {
+    display: block;
+  }
+  .button-show {
+    display: none;
+  }
+  .heading {
+    display: block;
+  }
+  .carousel-hide {
+    display: block;
+  }
+  .carousel-show {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .carousel-hide {
+    display: block;
+  }
+  .carousel-show {
+    display: none;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .homepage .left-text {
+    margin-bottom: 0px;
+    text-align: -webkit-center;
+  }
+  .homepage .left-text .heading {
+    padding-top: 0px;
+  }
+  .homepage .create-sell-nft .card {
+    width: 40%;
+    margin-bottom: 42px;
+  }
+  .homepage .create-sell-nft .card:nth-child(even) {
+    margin-right: 0px;
+  }
+  .homepage .why-marketplace .media {
+    width: 45%;
+  }
+  .homepage .why-marketplace .media:nth-child(even) {
+    margin-right: 0px;
+  }
+  .homepage .why-marketplace .media:nth-child(odd) {
+    margin-right: 30px;
+  }
+  .homepage .why-marketplace .inner-width {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .banner {
+    margin-bottom: 48px !important;
+  }
+  .homepage .create-sell-nft .heading {
+    margin-bottom: 42px;
+  }
+  .mob-heading {
+    display: block;
+    width: 304px;
+    height: 71px;
+    text-align: center;
+    font-family: poppins;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  /* .heading {
+    display: none;
+  } */
+  .text {
+    width: 303px;
+    height: 23px;
+    /* UI Properties */
+    text-align: left;
+    font-family: poppins !important;
+    font-size: 16px !important;
+    letter-spacing: 0px !important;
+    color: #ffffff;
+    opacity: 1;
+  }
+  .newtext{
+    width: 85%;
+    text-align: center;
+  }
+  .button-hide {
+    display: none;
+  }
+  .button-show {
+    display: block;
+  }
+  .homepage .why-marketplace .heading-why {
+    font-size: 32px;
+    margin-bottom: 54px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .carousel-hide {
+    display: none;
+  }
+  .carousel-show {
+    display: block;
+    margin: 0 7% 0 7%;
+    height: 400px;
+  }
+  .homepage .why-marketplace .heading-why {
+    font-family: "poppins-bold";
+    font-size: 18px;
+    line-height: 48px;
+    color: #191919;
+    margin-bottom: 14px;
+    text-align: center;
+  }
+  .homepage .why-marketplace .media {
+    margin-bottom: 28px;
+}
+.homepage .why-marketplace {
+  padding-top: 21px;
+  
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .homepage .create-sell-nft .heading {
+    font: normal normal 600 18px/27px Poppins;
+  }
+  .homepage .banner {
+    margin-bottom: 77px;
+  }
+  .homepage .create-sell-nft .heading {
+    margin-bottom: 22px;
+  }
+  .homepage .create-sell-nft {
+    margin-bottom: 0px;
+  }
+  .homepage .create-sell-nft .card {
+    width: 95%;
+    margin-right: 0 !important;
+    text-align: left;
+  }
+  .homepage .why-marketplace {
+    padding-bottom: 81px;
+  }
+  .homepage .why-marketplace .media {
+    width: 100%;
+  }
+  .homepage .why-marketplace .media {
+    margin-right: 0 !important;
+  }
+  .homepage .why-marketplace .heading-why {
+    font-size: 18px;
+    color: #191919;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .homepage .banner .inner-width {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .homepage .left-text .heading {
+    font-size: 28px;
+  }
+  .homepage .left-text .btn-custom {
+    margin-right: 10px;
+  }
+  .homepage .right-slider .card {
+    width: 93%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .homepage .left-text .heading {
+    font-size: 24px;
+  }
+  .homepage .left-text .btn-custom {
+    margin-right: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 992px){
+  .homepage .why-marketplace .media {
+    justify-content: center;
+    margin-right: 0px;
+    width: 55%;
+  }
+}
+.awssld {
+  height: 319px;
+}
+.awssld__content {
+  background-color: #ffffff !important;
+  height: 294px !important;
+  display: block !important;
+  border-radius: 20px !important;
+}
+
+.awssld__wrapper {
+  border-radius: 20px !important;
+  height: 294px !important;
+  width: 100%;
+}
+.aws-btn {
+  --slider-height-percentage: 60%;
+  --slider-transition-duration: 700ms;
+  --organic-arrow-thickness: 4px;
+  --organic-arrow-border-radius: 0px;
+  --organic-arrow-height: 40px;
+  --organic-arrow-color: #cf3438;
+  --control-button-width: 25%;
+  --control-button-height: 25%;
+  --control-button-background: transparent;
+  --control-bullet-color: #ffffff;
+  --control-bullet-active-color: #ffffff;
+  --loader-bar-color: #ffffff;
+  --loader-bar-height: 3px;
+}
+.awssld__bullets .awssld__bullets--active {
+  transform: scale(1.5);
+  background: white !important;
+}
+.awssld__bullets button {
+  padding: 0;
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin: 5px;
+  border-radius: 50%;
+  /* background: var(--control-bullet-color); */
+  text-indent: -9999px;
+  overflow: hidden;
+  cursor: pointer;
+  /* border: none; */
+  border: 1px solid #d5d5d5 !important;
+  transition: transform 0.225s cubic-bezier(0.8, 1.35, 0.75, 1.45),
+    background-color 0.175s ease-out;
+  background: #d5d5d500 0% 0% no-repeat padding-box !important;
+}
+.browse-text {
+  margin: 0 0 0 22px;
+  text-align: left;
+  font-family: "poppins";
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #191919;
+  opacity: 1;
+}
+.browse-img {
+  margin: 0 0 0 26px;
+  transition: transform .2s; /* Animation */
+}
+
+
+
+
+.nft-img{
+  width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 78%;
+    object-fit: cover;
+}
+.three-items{
+display: flex;
+justify-content: space-around;
+}
+.nft-carname{
+  /* font-family: "manrope"; */
+  font-size: 14px;
+  font-weight: 600;
+letter-spacing: 0px;
+color: #585858;
+opacity: 1;
+margin-top: 8px;
+margin-left: 10px;
+}
+.three-items>button{
+    /* background-color: #ffffff00;
+    border: 1px solid #16ab6e;
+    border-radius: 6px; */
+    border: none;
+    color: #16ab6e;
+    font-family: poppins-semibold;
+    font-size: 14px;
+    line-height: 21px;
+    min-width: 68px;
+    padding: 6px 5px 2px;
+  /* border: 1px solid #D5D5D5 !important; */
+  transition: transform 0.225s cubic-bezier(0.8, 1.35, 0.75, 1.45), background-color 0.175s ease-out;
+  background: #D5D5D500 0% 0% no-repeat padding-box !important;
+}
+.card1{
+  display: flex;
+   align-items: center;
+  justify-content: space-between;
+}
+
+.titleChar{
+  width: 100%;
+  display: flex;
+}
+.homePageContainer{
+  overflow: hidden;
+}
+.homePageContainer .homeNftShimmer{
+    width: 100%;
+    height: 273px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+    display: inline-block; 
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.card .smallCard-details{
+  height: 106px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff!important;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.nft-card-homePage{
+  width: 100%;
+}
+.card1 .homePageNft{
+  width: 55%;
+}
+.thumbnail-homepage-shimmer{
+  background: linear-gradient(to right, white 8%, #f0f0f0 18%, lightgray 33%);
+  animation: shimmer 4.2s linear infinite forwards;
+  transition: all .4s;
+}
+.card-home-page:hover .browse-img{
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+.card-home-page:hover {
+ cursor: pointer;
+}
+.first-card-nft:hover svg{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5) ; /* Safari 3-8 */
+  transform: scale(1.5) ; 
+}
+
+
+/* custom css */
+.Solid{
+  background-color: #ffffff !important;
+  color: #141520 !important;
+}
+
+.Solid:hover{
+  background: transparent !important;
+  color: #ffffff !important;
+}
+
+.inner-width .card-home-page:hover svg {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5) ; /* Safari 3-8 */
+  transform: scale(1.5) ; 
+}
+
+.inner-width svg{
+  transition: transform .2s;
+  margin-left: 16px;
+}
+
+.first-card-nft svg{
+  margin: 0 auto;
+  transition: transform .2s;
+}
+
+.padding-0{
+  padding: 0 !important; 
+}
+
+.false-button{
+  display: none !important;
+}
+
+.card-collection{
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.card-collection a{
+  text-decoration: none;
+}
+
+
+/* custom css */
+.remove-border{
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.btn-loader{
+  margin-right: 20px;
+}
+
+.margin-svg{
+  margin-left: 10px;
+}
+
+.svg-div{
+  height: 35%;
+}
+.card-text-div{
+  height: 65%;
+}

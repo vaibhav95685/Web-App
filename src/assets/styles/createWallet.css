@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1024px) {
+  .ShowMoreButtonConnectWallet {
+    margin-left: 4% !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .createmob2 {
+    margin-left: 0px !important;
+  }
+  .ShowMoreButtonConnectWallet {
+    margin-left: 8% !important;
+  }
+}

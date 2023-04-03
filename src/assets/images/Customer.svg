@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102" height="102" viewBox="0 0 102 102">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1003" data-name="Rectangle 1003" width="68.782" height="68.782" fill="#c3dbf3"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_670" data-name="Path 670" d="M366.82,229.961c0,5.823,4.721,12.11,10.544,12.11s10.544-6.287,10.544-12.11-4.721-9.955-10.544-9.955-10.544,4.131-10.544,9.955" transform="translate(-366.82 -220.006)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_671" data-name="Path 671" d="M254.426,524.27a6.2,6.2,0,0,0-3.976,7.521l1.067,3.932a6.23,6.23,0,0,0,6.013,4.6h25.74a6.23,6.23,0,0,0,5.934-4.332l1.385-4.329a6.224,6.224,0,0,0-3.76-7.744,43.508,43.508,0,0,0-15.063-2.653,54.851,54.851,0,0,0-17.34,3.006" transform="translate(-250.231 -521.264)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_959" data-name="Group 959" transform="translate(-708 -2877)">
+    <rect id="Rectangle_1175" data-name="Rectangle 1175" width="102" height="102" transform="translate(708 2877)" fill="none"/>
+    <g id="Group_958" data-name="Group 958" transform="translate(4.168 1662)">
+      <circle id="Ellipse_85" data-name="Ellipse 85" cx="40.633" cy="40.633" r="40.633" transform="translate(713.831 1306.267) rotate(-90)" fill="#016dd9"/>
+      <g id="Group_809" data-name="Group 809" transform="translate(720 1232.127)" opacity="0.73">
+        <g id="Group_808" data-name="Group 808">
+          <g id="Group_807" data-name="Group 807" clip-path="url(#clip-path)">
+            <path id="Path_669" data-name="Path 669" d="M153.231,118.839A34.391,34.391,0,1,1,118.84,84.448a34.391,34.391,0,0,1,34.391,34.391" transform="translate(-84.449 -84.448)" fill="#c3dbf3"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_813" data-name="Group 813" transform="translate(743 1243.569)">
+        <g id="Group_812" data-name="Group 812" clip-path="url(#clip-path-2)">
+          <rect id="Rectangle_1005" data-name="Rectangle 1005" width="30.218" height="29.993" transform="translate(-10.446 14.579) rotate(-54.377)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_815" data-name="Group 815" transform="translate(734 1268.995)">
+        <g id="Group_814" data-name="Group 814" clip-path="url(#clip-path-3)">
+          <rect id="Rectangle_1006" data-name="Rectangle 1006" width="39.96" height="45.249" transform="translate(-9.661 12.593) rotate(-54.377)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,356 @@
+.editProfileContainer {
+  /* width: 39%; */
+  width: 37%;
+  margin: 0px auto;
+  margin-top: 90px;
+  margin-bottom: 231px;
+  padding: 0px !important;
+  box-sizing: border-box;
+}
+.generalsettingl {
+  width: 70%;
+}
+.editprofile-image {
+  width: 151px;
+  height: 151px;
+  /* margin-right: 10px; */
+  margin-right: 21px;
+}
+.BioDes{
+  margin-bottom: 28px;
+}
+.input-heading {
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "poppins-semibold";
+  color: #000000;
+  padding-bottom: 10px;
+  margin-bottom: 37px;
+}
+.label-heading {
+  /* font-size: 16px;
+  font-family: "poppins-bold";
+   line-height: 25px; */
+  font: normal normal bold 16px/25px Poppins;
+  color: #191919;
+  margin-bottom: 13px;
+}
+.btn-choose-file {
+  background-color: #ffffff;
+  border: 1px solid #366eef;
+  border-radius: 4px;
+  width: 97px;
+  height: 35px;
+  text-align: center;
+}
+.btn-text {
+  color: #366eef !important;
+}
+.editprofile-button-outer {
+  width: 70%;
+}
+
+.editProfileTopHeading {
+  margin-left: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+  box-sizing: border-box;
+}
+.editProfileHeadingTitle {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.editProfileHeadingTitle .title{
+  font-family: 'poppins-bold';
+  font-size: 32px;
+  line-height: 48px;
+  color: #191919;
+  margin-bottom: 43px;
+}
+.chooseProfilePicContainer {
+  /* border: 2px solid red !important; */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+.chooseProfilePicInnerContainer {
+  position: relative;
+  border: none !important;
+  width: 100% !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center !important;
+}
+.editProfileChooseFileButton {
+  background-color: white;
+  border: 1px solid #366eef;
+  width: 40%;
+}
+.editProfileFormContainer {
+  padding-left: 0px !important;
+  box-sizing: border-box;
+}
+.editProfileFormContainerEach {
+  width: 100%;
+  margin: 0px !important;
+  box-sizing: border-box !important;
+}
+.editProfileFormContainerEachInput {
+  box-sizing: border-box;
+  padding: 1%;
+  padding-left: 7px;
+  border-radius: 4px;
+  /* background-color: #366eef; */
+  border: 1px solid #c8c8c8;
+  font-family: "poppins";
+  width: 100%;
+  border-radius: 7px;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 28px;
+  resize: none;
+}
+.poppins-normal {
+  font-family: "poppins";
+  text-transform: capitalize;
+}
+.poppins-medium {
+  font-family: "poppins-medium";
+}
+.input-down-text {
+  font-size: 14px !important;
+  font-family: "poppins" !important;
+  color: #707070 !important;
+  margin-bottom: 28px;
+}
+.editprofileSubmitButton {
+  width: 100%;
+  background-color: #366eef;
+  border: none;
+  height: 42px;
+  border-radius: 4px;
+}
+.fileinputedit {
+  color: transparent;
+  background-color: white !important;
+}
+.editprofile-image img{
+  border-radius: 50%;
+  width: 151px;
+  height: 151px;
+  object-fit: cover;
+}
+.supported-format-edit-profile{
+    font-family: 'poppins';
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 24px;
+    color: #828282;
+    margin-top: 30px;
+}
+.choosefile{
+  /* font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0px; */
+font: normal normal normal 14px/21px Poppins;
+color: #366EEF;
+opacity: 1;
+}
+.updateProfile{
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+font: normal normal 600 16px/19px Segoe UI;
+}
+.userheading{
+  margin-top: 3px;
+}
+.title{
+font: normal normal bold 32px/48px Poppins;
+letter-spacing: 0px;
+color: #191919;
+opacity: 1;
+}
+.editprofileCancelButton{
+display: none;
+}
+ textarea::-webkit-input-placeholder {
+  color: #828282;
+  font: normal normal medium 16px/25px Poppins;
+}
+.portfilodiv input::-webkit-input-placeholder{
+ color: #828282;
+ font: normal normal medium 16px/25px Poppins;
+}
+.closeIcon-editProfile{
+  position: absolute;
+  left: 110px;
+  top: 1%;
+  padding: 0px 8px 1px;
+  background-color: rgb(241, 238, 238);
+  border-radius: 50%;
+  cursor: pointer;
+  }
+  .image_edit_profile{
+    display: grid;
+    place-items: center;
+    width: 151px;
+    height: 151px;
+  }
+  .closeIcon-editProfile .crossIcon-editProfile{
+    width: 9px;
+    height: 9px;
+  }
+
+@media only screen and (max-width: 1440px) {
+  .editProfileContainer{
+    margin-bottom: 231px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .editProfileContainer {
+    width: 87%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .editProfileHeadingTitle .title{
+    font: normal normal 600 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+  }
+
+  .buttonGroup{
+    display: flex;
+    flex-direction:row;
+    float: right;
+    }
+    .editprofileCancelButton{
+      display: block;
+      margin-right: 18.09;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #366EEF;
+      color: #366EEF;
+      opacity: 1;
+      margin-right: 18.09px;
+      padding: 11px 66px 8px 67px;
+      border-radius: 5px;
+    }
+    .editprofileSubmitButton{
+      padding: 11px 31px 8px 46px;
+
+    }
+    
+  .editProfileContainer {
+    width: 84%;
+    margin-top: 41px;
+    margin-bottom: 70px;
+  }
+  .title{
+    font: normal normal 600 20px/30px Poppins;
+  }
+  .editprofile-image{
+    margin-right:52px;
+  }
+  .userheading{
+    margin-top: 34px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .chooseProfilePicInnerContainer{
+    display:block;
+    margin-top: 0px;
+    
+  }
+  .BioDes{
+    margin-bottom: 13px;
+
+  }
+  .label-heading{
+    font: normal normal normal 14px/21px Poppins-medium;
+letter-spacing: 0px;
+color: #191919;
+opacity: 1;
+margin-bottom: 14px;
+  }
+  .image_edit_profile{
+    width: 120px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 120px;
+
+  }
+  
+  .editProfileHeadingTitle .EditprofileTitle{
+    font: normal normal 600 18px/27px Poppins!important;
+    letter-spacing: 0px;
+    color: #191919!important;
+    margin-bottom: 22px;
+    margin-top: 0px;
+  }
+  .userheading{
+    margin-top: 38px;
+    margin-bottom: 14px;
+  }
+  .username-edit-profile-input{
+    margin-bottom: 13px;
+    padding: 0px;
+    padding-left: 7px;
+    height: 42px;
+
+  }
+  .portfilo-edit-profile-input{
+    margin-bottom: 32px;
+  }
+  .input-heading{
+    padding-bottom: 0px;
+    margin-bottom: 28px;
+    font: normal normal 600 16px/25px Poppins;
+  }
+  .editprofile-image{
+    height: 120px;
+  }
+  .editprofile-image img {
+    width: 120px;
+    height: 120px;
+
+  }
+  .editProfileContainer {
+    width: 91.42%;
+    margin-top: 52px;
+  
+  }
+  .btn-choose-file{
+    /* padding:11px 8px 11px 9px; */
+    width: 97px;
+    height: 42px;
+    font: normal normal normal 14px/21px Poppins;
+  }
+  .editprofile-image {
+    width: 42%;
+  }
+  .editprofileCancelButton{
+    display: none;
+  }
+  .buttonGroup{
+    float: none;
+  }
+  .editprofile-button-outer{
+    width: 120px;
+    /* text-align: center; */
+    margin-top: 17px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .closeIcon-editProfile{
+    left: 93px;
+    padding: 0px 8px 1px;
+  }
+}
+
+
+

@@ -1,0 +1,85 @@
+.loader-spinner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader-spinner .spinner-border {
+    width: 6rem;
+    height: 6rem;
+}
+
+.mr-r-10 {
+    margin-right: 10px;
+}
+
+.mr-b-s {
+    margin-bottom: 30px;
+}
+
+.text-overflow-collection {
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-overflow-expire {
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myStoreSocialMediaToggleButton{
+    width: 2vw;
+    background-color: #e0e0e0;
+    border-radius: 23px;
+    padding: 0px 0.2vw;
+    height: 1.2vw;
+    cursor: pointer;
+}
+
+.myStoreSocialMediaToggler {
+    background-color: white;
+    height: 0.8vw;
+    width: 0.8vw;
+    margin-top: 0.2vw;
+    border-radius: 50%;
+}
+
+.myStoreSocialMediaToggleButtonActive {
+    width: 2vw;
+    background-color: #1edf90;
+    border-radius: 23px;
+    padding: 0px 0.2vw;
+    height: 1.2vw;
+    cursor: pointer;
+}
+
+.myStoreSocialMediaTogglerActive {
+    background-color: white;
+    height: 0.8vw;
+    width: 0.8vw;
+    margin-top: 0.2vw;
+    border-radius: 50%;
+    position: relative;
+    right: -0.8vw;
+}
+
+.mint-mark{
+    padding: 20px;
+    background: #e0e0e0;
+    color: #888888;
+    padding: 0 9px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 80px;
+}

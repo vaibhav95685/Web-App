@@ -1,0 +1,147 @@
+.walletAddressContainer {
+  /* width: 516px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white !important;
+  position: fixed;
+
+  top: 70px; */
+  padding-top: 20px;
+  /* right: 0;
+  box-shadow: 0px 3px 12px #00000014; */
+}
+.walletAddress {
+  /* width: 75px; */
+  /* overflow: hidden; */
+  font-size: 16px;
+  text-overflow: ellipsis;
+  /* margin-top: 20px; */
+  font-family: "poppins" !important;
+  margin-right: 9px;
+  cursor: pointer;
+}
+.balancewallet {
+  margin-top: 30px !important;
+}
+.wallet-add-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+.wallet-outer {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* text-align: center; */
+  /* justify-content: flex-end; */
+  /* align-items: flex-end; */
+  height: 100%;
+  /* position: fixed; */
+  position: fixed;
+
+  /* position: absolute; */
+  top: 4.2rem;
+  right: 0;
+  /* display: inline-block; */
+  /* left: 0; */
+  box-shadow: 0px 3px 12px #00000014;
+  width: 516px;
+  background: #ffffff;
+  /* margin-left: auto; */
+  height: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  /* padding-left: 50px; */
+  /* padding-right: 50px; */
+  align-items: center;
+}
+
+.wallet-div-out {
+  width: 516px;
+  background: #ffffff;
+  /* margin-left: auto; */
+  height: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  /* padding-left: 50px; */
+  /* padding-right: 50px; */
+  align-items: center;
+}
+
+.balance-out {
+  border: 1px solid #c8c8c8;
+  width: 78.4%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 121px;
+}
+.balance-text {
+  margin-top: 13px;
+  font-size: 14px;
+  font-family: "poppins-mediums";
+}
+.balance-value {
+  font-size: 18px;
+  font-family: "poppins-medium";
+  margin-top: 24px;
+  font-weight: 600px;
+  cursor: pointer;
+}
+.balance-button {
+  width: 78.4%;
+  border-radius: 4px;
+
+  background-color: #366eef;
+  color: white;
+  border: none;
+  height: 42px;
+  margin-top: 15px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 480px) {
+  .walletAddressContainer {
+    width: 100%;
+  }
+}
+.walleth2{
+  position: relative;
+  cursor: pointer;
+}
+
+.tooltiptext{
+  visibility: hidden;
+  width: 182px;
+  background-color: rgba(0, 0, 0, 0.681);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 123%;
+  left: 27%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.walleth2 .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent  rgba(0, 0, 0, 0.681) transparent;
+}
+
+.walleth2:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

@@ -1,0 +1,70 @@
+.create-nft-outer {
+  width: 34.3%;
+
+  margin: auto;
+  /* border: 1px solid red; */
+  margin-top: 90px;
+  text-align: center;
+}
+.create-box-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+.single-box {
+  border: 1px solid #c8c8c8;
+  height: 15.48vw;
+  /* height: 21.484375vw; */
+  /* height: ; */
+}
+.single-create-type {
+  width: 44.7%;
+}
+.img-set-center {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-set-center > img {
+  width: 40%;
+}
+
+.create-type-text {
+  margin-top: 28px;
+}
+
+@media screen and (max-width: 1024px) {
+  .create-nft-outer {
+    width: 70%;
+  }
+  .single-box {
+    border: 1px solid #c8c8c8;
+    /* height: 15.48vw; */
+    height: 25.484375vw;
+  }
+}
+
+@media screen and (max-width: 484px) {
+  .create-nft-outer {
+    width: 70%;
+  }
+  .single-box {
+    border: 1px solid #c8c8c8;
+    /* height: 14.48vw; */
+    height: 58.484375vw;
+}
+  .single-create-type {
+    width: 100%;
+  }
+  .create-box-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-top: 22px;
+  }
+}

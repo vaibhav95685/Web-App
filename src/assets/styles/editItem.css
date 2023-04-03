@@ -1,0 +1,27 @@
+.uploadfile-text {
+  margin-top: 50px;
+  margin-bottom:20px;
+}
+
+.edit-form-input {
+  width: 100%;
+  border: 1px solid #c8c8c8;
+  border-radius: 7px;
+  height: 42px;
+  padding: 0.8% 2%;
+
+  /* padding: %; */
+}
+.marg-top-32 {
+  /*  changing to 25 */
+  margin-top: 25px;
+}
+
+.select-edit {
+  width: 100%;
+  border-radius: 7px;
+  background-color: transparent;
+}
+.background-f3 {
+  background-color: #f3f3f3;
+}

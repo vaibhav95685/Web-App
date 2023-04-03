@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b2e1ff"/>
+      <stop offset="1" stop-color="#0bbdf2"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_964" data-name="Group 964" transform="translate(-179 -5248)">
+    <rect id="Rectangle_1180" data-name="Rectangle 1180" width="16" height="16" transform="translate(179 5248)" fill="none"/>
+    <g id="Group_962" data-name="Group 962" transform="translate(135.364 5232.435)">
+      <rect id="Rectangle_1178" data-name="Rectangle 1178" width="10.958" height="10.671" rx="2" transform="translate(43.636 23.313) rotate(-45)" fill="#016dd9"/>
+      <rect id="Rectangle_1177" data-name="Rectangle 1177" width="10.958" height="10.671" rx="2" transform="translate(44.851 27.35) rotate(-77)" fill="#dba343"/>
+      <circle id="Ellipse_153" data-name="Ellipse 153" cx="4.427" cy="4.427" r="4.427" transform="translate(46.856 18.812)" fill="#031527"/>
+      <rect id="Rectangle_1176" data-name="Rectangle 1176" width="4.645" height="4.645" rx="1" transform="translate(48.025 23.212) rotate(-45)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

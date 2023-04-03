@@ -1,0 +1,130 @@
+.myItemspage {
+  width: 88%;
+  margin: auto;
+}
+
+.my-item-container {
+  margin-top: 36px;
+}
+
+.toggle-items {
+  display: flex;
+  margin-top: 23px;
+  /* width: 30.8%; */
+  width: 46.8%;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.add-item-button {
+  background-color: #366eef;
+  width: 167px;
+  color: white;
+  height: 42px;
+  margin-top: 27.12px;
+  border: none;
+  font-size: 16px;
+}
+.bord-rad-4 {
+  border-radius: 4px;
+}
+.my-item-card {
+  height: 309.19px;
+  background-color: #f8f8f8;
+  margin-right: 4%;
+  border-radius: 13px;
+}
+.Noitemdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textitem {
+  text-align: center;
+  font: normal normal medium 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: grey;
+  opacity: 1;
+}
+.priceTag {
+  /* border: 1px solid #16ab6e; */
+  border-radius: 6px;
+  display: flex;
+  white-space: nowrap;
+  padding: 6px 5px 2px 5px;
+  font-size: 86%;
+  line-height: 21px;
+  color: #16ab6e;
+  font-family: "poppins-semibold";
+  background-color: #ffffff00;
+  min-width: 68px;
+}
+.headingtag {
+  font: normal normal 600 20px/30px Poppins;
+  color: #191919;
+}
+.singleheading {
+  font: normal normal bold 16px/25px Poppins;
+}
+.collectionHeading {
+  font: normal normal bold 16px/25px Poppins;
+}
+.likeCount{
+  float: right;
+}
+.Noitemdiv .no-image{
+  filter: opacity(0.4) drop-shadow(0 0 0 grey);
+}
+@media only screen and (max-width: 426px) {
+  .headingtag {
+    text-align: center;
+    font: normal normal 600 18px/27px Poppins;
+    color: #191919;
+    margin-top: 52px;
+  }
+  .toggle-items {
+    width: 100%;
+    justify-content: center;
+  }
+  .singleheading {
+    text-align: center;
+    width: 106px;
+  }
+  .collectionHeading {
+    width: 106px;
+    text-align: center;
+  }
+  .add-item-button {
+    width: 100%;
+    margin-top: 33px;
+    margin-bottom: 42px;
+  }
+}
+@media only screen and (min-width: 427px) and (max-width: 992px) {
+  .headingtag {
+    font: normal normal 600 20px/30px Poppins;
+    margin-top: 41px;
+  }
+  .toggle-items {
+    width: 174px;
+  }
+  .singleheading {
+    width: 56px;
+    text-align: center;
+  }
+  .collectionHeading {
+    width: 100px;
+    text-align: center;
+  }
+  .collectioncard {
+    width: 45%;
+    margin: 0 auto;
+  }
+}
+.collectionCardEachTotalitems .total-nft-collection{
+  margin-left: 3px;
+}
+.card-lower .container__up .myItemNFT{
+width: 60%;
+color: #191919;
+overflow: hidden;
+}

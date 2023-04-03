@@ -1,0 +1,1352 @@
+.Collections__container {
+  margin-top: 50px;
+  width: 280px;
+  height: 264px;
+  /* margin-left: 128px; */
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  border-radius: 13px;
+  justify-content: center;
+}
+
+.max-width-250{
+  max-width: 250px;
+}
+.createCollectioDiv{
+  max-width: 244px!important;
+}
+
+.toggleNft {
+  border: 1px solid red;
+}
+ul {
+  list-style: none;
+}
+
+ul li .rounded-circle {
+  width: 100%;
+  height: 300px;
+  transform: scale(0.5);
+}
+
+#create_logo {
+  width: 68px;
+  height: 68px;
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@600&family=Atkinson+Hyperlegible&family=Fugaz+One&family=Lato&family=Montserrat:wght@500&family=Poppins:wght@200;500&family=Shadows+Into+Light&family=Shippori+Antique&family=Varela+Round&display=swap"); */
+* {
+  font-family: "Poppins";
+}
+
+.card {
+  cursor: pointer;
+}
+.c-8f9ba7{
+  color: #8f9ba7 !important;
+}
+.card-group {
+  width: 60%;
+}
+.card-text {
+  font-size: 14px;
+}
+
+/* .form-control {
+  width: 500px;
+} */
+
+.bi {
+  border: 1px solid white;
+}
+
+.contains_option {
+  margin-right: 60px;
+}
+
+ul {
+  padding: 0;
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@600&family=Atkinson+Hyperlegible&family=Fugaz+One&family=Lato&family=Montserrat:wght@500&family=Poppins:wght@500&family=Shadows+Into+Light&family=Shippori+Antique&family=Varela+Round&display=swap"); */
+
+.container__tile {
+  background-color: #f8f8f8;
+  /* padding: 13px 13px 13px 13px; */
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+.container__tile > img {
+  width: 312px;
+}
+
+.container__up {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 9px;
+  /* margin-left: 14px; */
+  /* margin-right: 12px; */
+}
+
+.container__down {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Assistant", sans-serif;
+  margin-top: 3px;
+}
+
+.value {
+  border: 1px solid #16ab6e;
+  border-radius: 6px;
+  padding: 6px 5px 5px 5px;
+  font-size: 14px;
+  color: #16ab6e;
+  /* margin-right: 1em; */
+}
+.card-lower {
+  background: #F8F8F8  0% 0% no-repeat padding-box;
+  min-height: 122px;
+  border-radius: 0px 0px 13px 13px;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 16px;
+  /* margin-left: -7px !important; */
+}
+.sale-type {
+  font-family: 'poppins-medium';
+    line-height: 21px;
+    color: #191919;
+}
+.options {
+  font: normal normal medium 14px/21px Poppins;
+  color: #858585;
+}
+.value__high {
+  font-size: 14px;
+  /* display: flex;
+  justify-content: space-between; */
+  margin-top: 20px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #191919;
+  font-family: 'poppins';
+  font-size: 14px;
+  line-height: 21px;
+  width: 83%;
+  /* margin-left: 14px;
+  margin-right: 12px; */
+}
+
+.value__k {
+  font-size: 14px;
+}
+
+/* span {
+  color: #37f;
+} */
+
+#nft__photo {
+  height: 160px;
+  cursor: pointer;
+  border-top-left-radius: 0.6em;
+  border-top-right-radius: 0.6em;
+  object-fit: cover;
+}
+/* .images {
+  margin-left: 50px;
+} */
+.col1 {
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 1170px) {
+  .container__tile > img {
+    width: 360px;
+  }
+  .single-nft-card {
+    height: 75% !important;
+  }
+  .images {
+    margin-left: 0px;
+    padding: 0px;
+    width: 93%;
+  }
+  .buying-search-btn {
+    margin-left: 0px !important;
+    width: 374px !important;
+  }
+  .col1 {
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+  .col11 {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .col12 {
+    width: 92%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+    flex: 0 0 auto;
+    width: 21%;
+  }
+}
+
+#like_icon {
+  position: absolute;
+  /* margin-top: 7px; */
+  top: 12px;
+  /* margin-right: 10px; */
+  right: 3%;
+  width: 26px;
+  height: 26px;
+  transition: all .4s;
+}
+#unlike_icon {
+  position: absolute;
+  /* margin-top: 7px; */
+  top: 12px;
+  /* margin-right: 10px; */
+  right: 3%;
+  width: 26px;
+  height: 26px;
+  transform: scale(1.0);
+  transition: all .4s;
+}
+#unlike_icon:hover{
+  transform: scale(1.3);
+  transition: all .4s;
+}
+#like_icon:hover{
+  transform: scale(1.3);
+  transition: all .4s;
+}
+
+.Leader_Board_container {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@600&family=Atkinson+Hyperlegible&family=Fugaz+One&family=Lato&family=Montserrat:wght@500&family=Poppins:wght@500&family=Shadows+Into+Light&family=Shippori+Antique&family=Varela+Round&display=swap"); */
+
+.upper__heading {
+  font-family: "Assistant", sans-serif;
+  display: flex;
+  font-size: 25px;
+  margin-top: 50px;
+  font-weight: bolder;
+}
+
+.upper__home {
+  display: flex;
+  flex-direction: column;
+
+  /* border: 1px solid red !important; */
+}
+
+.lower__homepage {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  /* width: 100%; */
+}
+
+#filters {
+  display: flex;
+  border: "1px solid blue";
+}
+
+#dropdownMenuButton2 {
+  margin-left: 150px;
+}
+
+/* #dropdownMenuButton3 {
+  margin-right: 100px;
+} */
+
+.middle__homepage {
+  display: flex;
+  margin-top: 46px;
+  margin-bottom: 52px;
+}
+@media only screen and (max-width: 450px) {
+  .middle__homepage {
+    margin-bottom: 33px;
+  }
+}
+
+.middle__heading {
+  font-family: "Assistant", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 18.4px;
+  color: black;
+  text-decoration: none;
+}
+
+/* ----border  */
+.borderF2px {
+  border: 2px solid #f1f1f1;
+}
+.borderF1px {
+  border: 2px solid #f1f1f1;
+}
+
+/* ----bold */
+.bold-600 {
+  font-weight: 600;
+}
+.bold-bold {
+  font-weight: bold;
+}
+/* ---------------Font style css------------- */
+.color82 {
+  color: #828282;
+}
+.color36 {
+  color: #366eef;
+}
+.bg-031527{
+  background-color: #031527 !important;
+  color:  #fff !important
+}
+.font-12 {
+  font-size: 12px;
+}
+.font-13 {
+  /* font-size: 13px; */
+  font-size: 12px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-16 {
+  font-size: 16px !important;
+}
+.font-17 {
+  font-size: 17px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-19 {
+  font-size: 19px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-48 {
+  font-size: 48px;
+}
+.font-32 {
+  font-size: 32px;
+}
+.font-weight-500 {
+  font-weight: 500;
+}
+.font-weight-550 {
+  font-weight: 550;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.font-weight-700 {
+  font-weight: 700;
+}
+.font-weight-900 {
+  font-weight: 900;
+}
+.font-weight-normal {
+  font-weight: normal !important;
+}
+
+/* --------------Font style css---------------- */
+
+/* --------------Color css---------------- */
+.text-grey {
+  color: #707070;
+}
+.text-sky {
+  color: #366eef;
+}
+/* --------------Color css end---------------- */
+
+/* ------------Suggestions form css------------ */
+.suggestion-form {
+  border-radius: 15px;
+}
+.color-red{
+  color: rgb(255, 71, 71) !important;
+}
+.m-t-2{
+  margin-top: 2px !important
+}
+.display-loader-left{
+  
+
+}
+.storefront-create-store{
+color:#ffffff;
+}
+/* .column-gap-20{
+  column-gap: 25px !important;
+  row-gap: 5px !important;
+} */
+
+.suggestion-input-box {
+  background-color: #f8f8f8 !important;
+}
+/* -----------Suggestions form css end--------- */
+
+/* ----------Create/Profile form css--------- */
+.card-border {
+  border-radius: 15px;
+}
+/* ----------Create/Profile form css end------- */
+
+/*-------------- Buying css------------------ */
+/* .btn-search-secondary {
+  border: 5px !important;
+} */
+.buying-search-btn {
+  width: 300px;
+  margin-left: 150px;
+}
+.border-input {
+  border-right: 0 !important;
+}
+.accordion-border {
+  border-radius: 5px !important;
+}
+.border-search {
+  border-left: 0 !important;
+}
+/*-------------- Buying css end------------------ */
+
+/*-------------- CreateNFT css ------------------ */
+.create-nft-font {
+  font-weight: bold;
+}
+.bottom-heading-font {
+  font-weight: 600;
+  font-size: 16px;
+}
+.card-height {
+  height: 110%;
+}
+/*-------------- CreateNFT css ------------------ */
+
+/*-------------- Single CreateNFT css ------------------ */
+.single-nft-card {
+  /* height: 60%; */
+  /* width: 270px; */
+  text-align: center;
+}
+.input-heading {
+  font-size: 15px;
+  font-weight: 600;
+}
+input#ethereum {
+  background-image: url("../images/ethereum.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 20px;
+}
+/*-------------- Single CreateNFT css end------------------ */
+
+/*-------------- Collection CreateNFT css end------------------ */
+/* .collection-nft-card {
+  height: 240px !important;
+  width: 250px !important;
+} */
+.banner-nft-card {
+  height: 220px;
+  width: 600px;
+}
+.text-secondary {
+  color: grey !important;
+}
+/* input,
+input::-webkit-input-placeholder {
+  font-size: 12px;
+} */
+::placeholder {
+  font-size: 13px !important;
+}
+.top-heading {
+  margin-left: 2em !important;
+}
+/*-------------- Collection CreateNFT css end------------------ */
+/*  nav large */
+/* @media only screen and (max-width: 1010px) {
+  .filter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+} */
+
+/*-------------- navbar mob css------------------ */
+@media only screen and (max-width: 575px) {
+  /* .navbar-brand {
+    margin-left: -35px;
+  } */
+  .navbar-toggler {
+    margin-left: 280px !important;
+    /* margin-top: -51px !important; */
+    padding: 0px;
+  }
+  .navbar-nav {
+    margin-left: -40px;
+  }
+}
+.add-btn {
+  width: 180px;
+}
+.item_middle__heading {
+  line-height: 18.4px;
+  color: black;
+  text-decoration: none;
+}
+.Myitems_Collections__container {
+  margin-top: 50px;
+  width: 300px;
+  height: 340px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  border-radius: 13px;
+  justify-content: center;
+}
+/*-------------- My Items css end------------------ */
+
+/* -------------------button styles css------------ */
+.btn-normal-size {
+  width: 120px;
+}
+.btn-text:hover {
+  color: white;
+  font-size: 14px;
+}
+/* -------------------button styles css------------ */
+
+/* -----------------Edit Profile css------------ */
+.rounded-circle {
+  width: 160px;
+  height: 150px;
+}
+
+/* -----------------Edit Profile css------------ */
+
+/* -----------------Nft hompage css------------ */
+.nft-card-radius {
+  border-radius: 10px !important;
+  /* width: 260px; */
+}
+.nft-img-radius {
+  border-radius: 13px 13px 0px 0px;
+}
+/* -----------------Nft hompage css------------ */
+
+/* -----------------Collections hompage css------------ */
+.collection-img-card-radius {
+  border-radius: 50%;
+}
+/* .collection-card {
+  height: 260px;
+} */
+/* -----------------Collections hompage css end------------ */
+
+/* -----------------Nft Info hompage css------------ */
+.second-column {
+  margin-left: -65px !important;
+}
+/* -----------------Nft Info hompage css end------------ */
+
+/* ------------------PricingGraph Css------------- */
+.apexcharts-toolbar {
+  display: none !important;
+}
+#SvgjsText1200 {
+  font-size: 15px !important;
+  font-style: normal !important;
+  font-family: sans-serif !important;
+}
+#SvgjsLine2893 {
+  display: none;
+}
+#SvgjsLine2894 {
+  display: none;
+}
+#SvgjsLine2895 {
+  display: none;
+}
+#SvgjsLine2896 {
+  display: none;
+}
+#SvgjsLine2897 {
+  display: none;
+}
+#SvgjsLine2898 {
+  display: none;
+}
+#SvgjsLine2899 {
+  display: none;
+}
+#SvgjsLine2900 {
+  display: none;
+}
+#SvgjsLine2901 {
+  display: none;
+}
+#SvgjsRect2908 {
+  display: none;
+}
+#SvgjsRect2910 {
+  display: none;
+}
+#SvgjsRect2912 {
+  display: none;
+}
+#SvgjsLine1043 {
+  display: none;
+}
+#SvgjsLine1044 {
+  display: none;
+}
+#SvgjsLine1045 {
+  display: none;
+}
+#SvgjsRect1051 {
+  display: none;
+}
+#SvgjsRect1053 {
+  display: none;
+}
+.apexcharts-text tspan {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+/* ----------------PricingGraph Css end----------- */
+
+/* ---------------Mobile/Media css  max-width 900px------------ */
+@media only screen and (max-width: 900px) {
+  /* Edit Profile */
+
+  .img-responsive {
+    width: 100px;
+    height: 100px;
+    margin-top: 1em;
+  }
+  .btn-text {
+    font-size: 10px !important;
+  }
+}
+/* ---------------Mobile/Media css------------ */
+
+/* ---------------Mobile/Media css  max-width 769px------------ */
+@media only screen and (max-width: 769px) {
+  /* Edit Profile */
+  /* .form-responsive {
+    width: 550px;
+    margin-left: 3em;
+  } */
+
+  .img-responsive {
+    width: 80px;
+    height: 80px;
+  }
+  .btn-text {
+    font-size: 8px !important;
+  }
+}
+/* ---------------Mobile/Media css------------ */
+
+/* ---------------Mobile view css  max-width 575px------------ */
+@media only screen and (max-width: 575px) {
+  /* Edit Profile */
+  .form-responsive {
+    width: 500px;
+    margin-left: 3em;
+  }
+
+  .btn-text {
+    font-size: 10px !important;
+  }
+  .img-responsive {
+    width: 80px;
+    height: 80px;
+    margin-left: 12em !important;
+  }
+}
+/* ---------------Mobile view css end------------ */
+
+/* ---------------Mobile view css  max-width 530px------------ */
+@media only screen and (max-width: 530px) {
+  /* Edit Profile */
+  .form-responsive {
+    width: 500px;
+    margin-left: 1em;
+  }
+
+  .btn-text {
+    font-size: 10px !important;
+  }
+  .img-responsive {
+    width: 80px;
+    height: 80px;
+    margin-left: 12em !important;
+  }
+}
+/* ---------------Mobile view css end------------ */
+/* ---------------Mobile view css  max-width 489px------------ */
+@media only screen and (max-width: 489px) {
+  /* Edit Profile */
+  .form-responsive {
+    width: 400px;
+  }
+
+  .btn-text {
+    font-size: 10px !important;
+  }
+  .img-responsive {
+    width: 80px;
+    height: 80px;
+    margin-left: 8em !important;
+  }
+}
+/* ---------------Mobile view css end------------ */
+/* @media only screen and (max-width: 350px) {
+  .highest-post-btn {
+    width: "100px" !important;
+  }
+  .fixed-post-btn {
+    width: "100px" !important;
+  }
+} */
+/* .fixed-post-btn {
+    width: "300px" !important;
+  } */
+
+/* toggle switch */
+
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: none !important;
+}
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+}
+.toggle-switch input[type="checkbox"] {
+  display: none;
+}
+.toggle-switch .switch {
+  width: 45px;
+  height: 20px;
+  position: absolute;
+  cursor: pointer;
+  background-color: #ccc;
+  border-radius: 25px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: background-color 0.2s ease;
+}
+.toggle-switch .switch::before {
+  position: absolute;
+  content: "";
+  left: 3px;
+  top: 2px;
+  width: 17px;
+  height: 17px;
+  background-color: #aaa;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+.toggle-switch input[type="checkbox"]:checked + .switch::before {
+  transform: translateX(25px);
+  background-color: #f6faf8;
+}
+.toggle-switch input[type="checkbox"]:checked + .switch {
+  background-color: #16ab6e;
+  width: 45px;
+  height: 20px;
+}
+
+/* dileep css here */
+.ml_auto {
+  margin-left: auto;
+  /* margin-left: 15px; */
+}
+/* .filter {
+  display: flex;
+  width: 100%;
+} */
+.filter .dropdown {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid #d2d2d2; */
+  border-radius: 4px;
+  /* padding: 9px 12px 9px 12px; */
+  /* width: 250px; */ 
+  width: 222px;
+  font-size: 14px;
+  height: 42px;
+  white-space: nowrap;
+}
+.filter .dropdown p {
+  font-family: 'poppins-medium';
+  line-height: 21px;
+  color: #191919;
+  font-size: 14px;
+}
+.filter .dropdown select {
+  /* border: none; */
+  /* width: 143px; */
+  /* color: #858585; */
+  color: #191919;
+  font-family: 'poppins-medium';
+  line-height: 21px;
+}
+.second_select {
+  margin-left: 32px;
+}
+.filter .dropdown .first_select {
+  /* color: #858585; */
+  color: #191919;
+  width: 52%;
+  font-family: 'poppins-medium';
+  line-height: 21px;
+  /* margin-left: 32px; */
+}
+.lower__homepage .dropbtm_mob {
+  padding: 0;
+}
+.sort-drop {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d2d2d2;
+  border-radius: 4px;
+  padding: 9px 12px 9px 12px;
+  width: 260px;
+  font-family: 'poppins-medium';
+  line-height: 21px;
+  font-size: 16px;
+  height: 42px;
+  cursor: pointer;
+}
+/* .sort-drop > select {
+  border: none;
+} */
+select:focus-visible {
+  outline-offset: 0px;
+  outline: none;
+}
+
+.lower__homepage {
+  display: flex;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1010px) {
+  .ntf_div{
+    margin: 0 20px;
+  }
+  /* .filter .dropdown .first_select {
+    margin-left: 10px;
+    width: 90%;
+  } */
+  .filter .second_select {
+    margin-left: 0px;
+  }
+  .filter .ml_auto {
+    margin-left: 0px;
+  }  
+  .row {
+    --bs-gutter-x: 0px;
+  }
+}
+@media only screen and (min-width:720px) and (max-width:992px) {
+  .ntf_div{
+    margin: 0 42px !important;
+  }
+}
+.center {
+  margin: auto;
+  width: 10%;
+  padding: 10px;
+  transform-origin: center;
+}
+
+/*  1920 */
+@media only screen and (max-width: 2000px) and (min-width: 1600px) {
+  .nft-img-radius {
+    width: 100%;
+    /* width: 326px; */
+    height: 187.19px;
+    object-fit: cover;
+    position: relative;
+    display: inline-block;
+  }
+  .nft_div {
+    padding: 0px !important;
+    margin: 0px 128px;
+    width: 1664px !important;
+    /* margin: 0px 128px; */
+    border: 1px solid red !important;
+  }
+  .upper__home {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+
+    /* border: 1px solid red !important; */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tabs-list {
+    display: flex;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #828282;
+    cursor: pointer;
+  }
+  .filter {
+    flex-direction: column;
+    /* margin-bottom: 16px; */
+  }
+  .sort-drop {
+    width: 100%;
+  }
+  .filter .dropdown select{
+    /* border: none; */
+    width: 100%!important;
+  }
+  .filter .dropdown {
+    width: 100%!important;
+    margin-bottom: 16px;
+  }
+}
+
+/* add wallet screen css */
+.connect-wallet {
+  margin-top: 97px;
+  /* margin-bottom: 206px; */
+  margin-bottom: 181px; 
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.connect-wallet .title {
+  font-family: "poppins-semibold";
+  font-size: 20px;
+  line-height: 30px;
+  color: #191919;
+  margin-bottom: 14px;
+}
+.connect-wallet .text {
+  font-family: "poppins";
+  font-size: 20px;
+  line-height: 30px;
+  color: #8b8b8b;
+  margin-bottom: 47px;
+}
+.connect-wallet .text span {
+  font-family: "poppins-bold";
+  font-size: 20px;
+  line-height: 30px;
+  color: #8b8b8b;
+}
+.connect-wallet .eachWalletTypeBox .card {
+  background: #ffffff;
+  border: 2px solid #f1f1f1 !important;
+  border-radius: 13px;
+  width: 289px;
+  min-height: 193px;
+  padding: 17px 17px 23px 31px;
+  margin-right: 33px;
+  margin-bottom: 39px;
+}
+.connect-wallet .eachWalletTypeBox .card:last-child {
+  margin-right: 0px;
+}
+.connect-wallet .eachWalletTypeBox .card:hover {
+  border: 2px solid #8b8b8b !important;
+  animation-play-state: paused;
+  background-color: #ffffff!important;
+}
+.connect-wallet .eachWalletTypeBox .card-title {
+  font-family: "poppins-semibold";
+  font-size: 16px;
+  line-height: 25px;
+  color: #191919;
+  margin-bottom: 5px;
+}
+.connect-wallet .eachWalletTypeBox .card-text {
+  font-family: "poppins";
+  font-size: 14px;
+  line-height: 21px;
+  color: #191919;
+  margin-bottom: 0px;
+}
+.connect-wallet .eachWalletTypeBox .card-body {
+  padding: 0px;
+}
+.connect-wallet .eachWalletTypeBox .card-effect{
+  background-image: linear-gradient(266deg, #e6e6e6 0%, #c0bfbb 49%, #efebeb 80%, #dfdfdf 100%);;
+  animation:slidebg 5s linear infinite;
+}
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+.connect-wallet .eachWalletTypeBox .card-effect1{
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    background-color: #f2f2f2;
+  }
+  
+  to {
+    background-color: #c0bebe;
+  }
+}
+@-webkit-keyframes glow {
+  from {
+    background-color: #f2f2f2;
+  }
+  
+  to {
+    background-color: #c0bebe;
+  }
+}
+/* @keyframes glow {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 15px #f2f2f2, 0 0 20px #8f8e8e, 0 0 25px #696969, 0 0 30px #696969, 0 0 35px #696969;
+  }
+  
+  to {
+    box-shadow: 0 0 10px #fff, 0 0 15px #f2f2f2, 0 0 20px #8f8e8e, 0 0 25px #696969, 0 0 30px #696969, 0 0 35px #696969;
+  }
+} */
+
+
+
+@media only screen and (max-width: 1600px) {
+  .connect-wallet {
+    padding-left: 8.5%;
+    padding-right: 8.5%;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .connect-wallet {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .card-lower{
+    min-height: 110px;
+  }
+}
+@media only screen and (max-width:767px){  
+  .lower__homepage{
+    flex-direction: column;
+  }
+  .filter .dropdown {
+    width: initial;
+    margin-bottom: 16px;
+    /* margin-left: 2%; */
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .connect-wallet {
+    margin-bottom: 97px;
+  }
+  .connect-wallet .eachWalletTypeBox .card {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+.ethCurrency{
+  letter-spacing: 0px;
+  color: #366EEF;
+  font-family: 'poppins-bold';
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.namesold{
+  text-align: left;
+  letter-spacing: 0px;
+  color: #191919;
+  font-family: 'poppins-semibold';
+  font-size: 14px;
+  line-height: 21px;
+}
+/* add wallet screen css end*/
+.z-carousel{
+  z-index: 0 !important;
+}
+
+/* Blockchain select css start*/
+.css-1pahdxg-control{
+  border-color: #C8C8C8!important;
+  box-shadow: none;
+}
+.css-1pahdxg-control:hover{
+  border-color: #C8C8C8!important;
+  box-shadow: none;
+}
+.css-1okebmr-indicatorSeparator{
+  display: none
+}
+.css-1s2u09g-control{
+  background-color: #f3f3f3;
+}
+/* Blockchain select css end*/
+
+.search-div{
+  position: relative;
+  align-items: center;
+  height: 42px;
+  /* background-color: #F8F8F8; */
+  border-radius: 4px;
+  opacity: 1;
+  /* padding: 8px; */
+  width: 350px;
+}
+.searchimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+  width: 50px;
+  height: 42px;
+  background: #F8F8F8 0% 0% no-repeat padding-box;
+  border-radius: 0px 4px 4px 0px;
+  opacity: 1;
+  text-align: center;
+  cursor: pointer;
+}
+.searchimg>img{
+/* margin-top: 8px; */
+}
+.search-input{
+  border: none;
+  background: #F8F8F8 0% 0% no-repeat padding-box;
+  border-radius: 4px 0px 0px 4px;
+  opacity: 1;
+  width: 100%;
+  height: 42px;
+  padding-left:15px;
+}
+@media screen and (min-width:400px) and (max-width:425px){
+  /* .search-input{
+    width:350px;
+  } */
+}
+.search-input::placeholder{
+  font-weight: bold;
+}
+.search-results-background{
+  z-index: 999;
+  position: absolute; 
+  margin-top: 10px;
+  left: 0;
+  /* background: #191919 0% 0% no-repeat padding-box; */
+  background-color: rgba(25, 25, 25, 0.5);
+  /* background-color: transparent; */
+  /* border: 1px solid #707070; */
+  width: 100vw;
+  height: 100vh;
+}
+.search-results-box-small{
+  z-index: 999;
+  visibility: visible;
+  position: absolute;
+  margin-top: 43px;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  overflow: auto;
+  left:0;
+}
+.small-search-result{
+  z-index: 999;
+  visibility: visible;
+  position: absolute;
+  margin-top: 5px;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px #0000000F;
+  width: 100%;
+
+}
+
+.search-results-box{
+  z-index: 999;
+  visibility: visible;
+  position: absolute;
+  margin-top: 5px;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px #0000000F;
+  border-radius: 6px;
+  width: 350px;
+  left: 100px;
+}
+/* .search-results-background > * {
+  opacity: .3;
+  display: block;
+}
+
+.search-results-background > .search-results-box {
+  opacity: 1;
+} */
+.item-div{
+  display:"flex";
+  padding-top: 16px;
+  padding-left: 17px;
+  border-bottom: 1px solid #E0E0E0;
+}
+.coll-title{
+  padding: 27px 0px 0px 17px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.coll-img{
+  width:24px;
+  height: 24px;
+  border-radius:12px;
+  margin-right: 16px;
+}
+.coll-name{
+  font-size: 14px;
+  font-weight: 500px;
+  color:#191919;
+}
+.item-count{
+  color:#366EEF;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left:10px;
+}
+.btn-div{
+  justify-content: center;
+  align-items: center;
+}
+.show-more-btn{
+  color:#366EEF;
+  font-weight: 700;
+  border: none;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  background-color: transparent;
+}
+input[type="search"]::-webkit-search-cancel-button{
+  cursor: pointer;  
+}
+.active-body{
+  overflow: hidden;
+}
+.create-store-padding{
+  padding-bottom: 15px;
+}
+/* Mobile-view */
+@media only screen and (max-width: 700px) {
+  .search-div{
+    display: none !important;
+  }
+  .search-results-background{
+    display: none !important;
+  }
+}
+
+/* Tab-view */
+@media only screen and (min-width: 768px) {
+}
+
+/* Desktop-view */
+@media only screen and (min-width: 992px) {
+  .search-div{
+    width: 500px;
+  }
+  .search-results-box{
+    width: 500px;
+    left: 10%;
+  }
+  .search-input{
+    /* width:252px; */
+  }
+}
+
+.hamburger{
+  z-index: 999;
+  position: absolute;
+  left: 0;
+  /* background: #191919 0% 0% no-repeat padding-box; */
+  /* background-color: rgba(25, 25, 25, 0.5); */
+  background-color: transparent;
+  /* border: 1px solid #707070; */
+  width: 100vw;
+  height: 100vh;
+}
+/* .search-div:hover{
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+   transition: all 0.1s ease 0s;
+} */
+.leaderboardTop .card{
+  cursor: default;
+}
+.loaderNft{
+  width: 100%;
+  height: 187.19px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+  display: inline-block; 
+}
+.select-element{
+  width: 260px;
+  height: 42px;
+  color: #191919;
+}
+@media only screen and (max-width:767px){
+  .select-element{
+    width:100%;
+  }
+}

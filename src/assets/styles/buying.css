@@ -1,0 +1,126 @@
+.buyingContainer {
+  width: 50% !important;
+  box-sizing: border-box;
+  margin: 0px auto;
+}
+.backbuying{
+  display:none;
+  
+}
+.buyingTop{
+  text-align: left;
+  font: normal normal 600 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #191919;
+  opacity: 1;
+}
+
+
+.buyingContainerHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 2% auto;
+}
+.buyingHeaderSearch {
+  width: 40%;
+  margin-left: 3%;
+}
+.buyingRulesContainer {
+  width: 100%;
+  box-sizing: border-box;
+}
+.accordionTitleBuying {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2%;
+  font-family: "poppins-medium";
+}
+@media only screen and (max-width: 1024px) {
+  .backbuying{
+    display:none;
+  }
+  
+  .headerbuying {
+    display: none;
+  }
+  .buyingContainer {
+    width: 80% !important;
+    box-sizing: border-box;
+    margin: 0px auto;
+    margin-top: 34px;
+  }
+  .buyingContainerHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2% auto;
+  }
+  .buyingHeaderSearch {
+    /* width: 40%; */
+    width: 49%;
+    margin-left: 3%;
+  }
+  .buyingRulesContainer {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .accordionTitleBuying {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2%;
+    font-family: "poppins-medium";
+  }
+
+}
+@media only screen and (max-width: 480px) {
+  .backbuying{
+    display:unset;
+  }
+  .inputbuying{
+    width: 239px;
+  }
+  .headerbuying {
+    display: none;
+  }
+
+  .inputbuying {
+    height: 42px;
+  }
+  .buyersearchbutton {
+    height: 42px;
+  }
+  .buyingContainer {
+    width: 95% !important;
+    box-sizing: border-box;
+    margin: 0px auto;
+    margin-top: 44px;
+  }
+  .buyingContainerHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2% auto;
+  }
+  .buyingHeaderSearch {
+    width: 40%;
+    margin-left: 3%;
+  }
+  .buyingRulesContainer {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 13px;
+  }
+  .accordionTitleBuying {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2%;
+    font-family: "poppins-medium";
+  }
+}
+.headerbuying .offset-1{
+  margin-left: 7.3%;
+}

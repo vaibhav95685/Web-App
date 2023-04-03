@@ -1,0 +1,368 @@
+/* Marketplace page top height */
+#upper__home {
+  margin-top: 36px;
+}
+
+#upper__home h1 {
+  font-family: "poppins-semibold";
+}
+
+/* css for filters */
+.nftTilePageSecondSelect {
+  margin-left: 3%;
+  font-family: "poppins-medium";
+  font-size: 0.9vw;
+  width: 100%;
+}
+
+.nftTilePageSecondSelect select {
+  border: none !important;
+  width: 90% !important;
+  width: 61% !important;
+}
+
+.price-range-dropdown {
+  margin-left: 3%;
+  font-family: "poppins-medium";
+  font-size: 0.9vw;
+  width: 260px;
+}
+
+.price-range-dropdown select {
+  /* border: none !important; */
+  width: 260px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1000px) {
+  .price-range-dropdown select {
+    width: 100%;
+  }
+}
+
+/* css for NFt cards */
+.nftTileEachImage {
+  box-sizing: border-box;
+  /* height: 9.81vw; */
+  height: 187.19px;
+  min-height: 187.19px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.nftTileEachDetailsFirstContainer {
+  width: 100%;
+  font-size: 1vw !important;
+  display: flex;
+  align-items: flex-start;
+  /* padding-top: 4%; */
+}
+
+.nftTileEachDetailsFirstContainerName {
+  /* min-height: 48px; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  font: normal normal bold 16px/25px Poppins;
+  -webkit-line-clamp: 2;
+  /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.nftTileEachDetailsFirstContainerValue {
+  border: 1px solid #16ab6e;
+  border-radius: 6px;
+  padding: 6px 5px 2px 5px;
+  font-size: 14px;
+  white-space: nowrap;
+  line-height: 21px;
+  display: flex;
+  color: #16ab6e;
+  font-family: "poppins-semibold";
+  background-color: #ffffff00;
+  /* min-width: 68px; */
+  max-width: 100%;
+  /* margin-right: 1em; */
+}
+
+.nftTileEachDetailsSecondContainerValueHighest {
+  font-family: "poppins";
+  font-size: 0.9vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 100%;
+  /* margin: 4% 0px; */
+  margin-top: 16px;
+}
+
+.clockNftDetails {
+  margin-right: 1% !important;
+}
+
+.gird-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* grid-gap: 10px; */
+  /* background-color: #2196F3; */
+  /* padding: 10px; */
+}
+
+/* nft page filter css start */
+.ntf_div .filter-drop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 64%;
+  padding: 0% 1% 0% 5%;
+  position: relative;
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .ntf_div .filter-drop {
+    width: 76%;
+    padding: 0% 1% 0% 0%;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .ntf_div .filter-drop {
+    width: 72%;
+    padding: 0% 1% 0% 0%;
+  }
+  #upper__home h1 {
+    font-family: "poppins-semibold";
+    font-size:18px ;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .ntf_div .filter-drop {
+    width: 66%;
+    padding: 0% 1% 0% 0%;
+  }
+  #upper__home h1 {
+    font-family: "poppins-semibold";
+    font-size:18px ;
+  }
+}
+
+.ntf_div .filter-drop .text {
+  display: flex;
+  font-size: 14px;
+  font-family: "poppins-medium";
+  align-items: center;
+  line-height: 21px;
+  color: #858585;
+}
+
+.ntf_div .filter-drop .filter-item {
+  position: absolute;
+  top: 45px;
+  left: -94px;
+  border-top: none;
+  width: 279px;
+  z-index: 1;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px #0000001f;
+  border: 1px solid #f4f4f4;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.ntf_div .filter-drop .filter-item .to {
+  font-family: "poppins-medium";
+  font-size: 14px;
+  line-height: 21px;
+  color: #191919;
+}
+
+.ntf_div .filter-drop .filter-item .btn-outline-primary {
+  font-family: "poppins-medium";
+  font-size: 16px;
+  line-height: 25px;
+  color: #366eef;
+  border: 1px solid #366eef;
+  border-radius: 4px;
+  width: 100%;
+ 
+}
+.ntf_div .filter-drop .filter-item .accept-button {
+  background-color: #366EEF!important;
+  color: #FFFFFF !important;
+}
+
+.ntf_div .filter-drop .filter-item .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+/* nft page filter css end */
+
+@media only screen and (min-width: 1215px) and (max-width: 1240px) {
+  .nftTileEachDetailsFirstContainerValue {
+    margin-left: 4px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .nftTilePageSecondSelect {
+    font-size: 1.9vw;
+  }
+
+  .nftTileEachDetailsFirstContainer {
+    font-size: 2vw !important;
+  }
+
+  /* .nftTileEachDetailsFirstContainerValue {
+    font-size: 1.87vw;
+  } */
+  .nftTileEachDetailsSecondContainerValueHighest {
+    font-size: 1.9vw;
+  }
+
+  .nftTileEachImage {
+    height: 19.81vw;
+  }
+
+  .mobilenftTilePageFirstSelect {
+    display: flex !important;
+    align-items: center !important;
+    /* justify-content: space-between !important; */
+    /* justify-content: space-between !important; */
+  }
+
+  /* .mobilenftTilePageSecondSelect {
+    margin-left: 0px !important;
+    margin-top: -1% !important;
+  } */
+  /* .mobilenftTilePageThirdSelect {
+    margin-left: 0px !important;
+    margin-top: 3% !important;
+    width: 100% !important;
+  } */
+  .ntf_div .filter-drop .filter-item .form-control {
+    width: 100%;
+  }
+
+  .ntf_div .filter-drop .filter-item .row {
+    --bs-gutter-x: 16px;
+  }
+}
+
+@media only screen and (width: 768px) {
+  .nftTilePageSecondSelect {
+    margin-left: 7%;
+  }
+
+  #upper__home {
+    margin-top: 41px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mobilenftTilePageThirdSelect {
+    margin-left: 0px !important;
+    /* margin-top: 3% !important; */
+    margin-bottom: 3% !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .nftTilePageSecondSelect {
+    font-size: 3.9vw;
+  }
+
+  .nftTileEachDetailsFirstContainer {
+    font-size: 4vw !important;
+  }
+
+  .nftTileEachDetailsFirstContainerValue {
+    font-size: 14px;
+    max-width: 100%;
+    height: 33px;
+    text-align-last: center;
+  }
+
+  .nftTileEachDetailsSecondContainerValueHighest {
+    font-size: 3.9vw;
+  }
+
+  .nftTileEachImage {
+    height: 52.81vw;
+  }
+
+  .mobilenftTilePageFirstSelect {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+  .mobilenftTilePageSecondSelect {
+    margin-left: 0px !important;
+    margin-top: -1% !important;
+  }
+
+  #upper__home {
+    margin-top: 52px;
+  }
+}
+
+/* .dropdown-img{
+  background-image: url("/whitelablenft-webapp/src/assets/images/drop-down-arrow.svg") no-repeat right #ffffff;
+} */
+.collectionName {
+  font-size: 0.9rem;
+  color: blue;
+  margin-top: 16px;
+  display: flex;
+  /* width: 58%; */
+  /* position: absolute; */
+  bottom: 8px;
+  left: 17px;
+  /* max-width: 90%; */
+  /* width: 88%; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.PriceRangeBoxDropDownCurrencyType {
+  border: 1px solid #D2D2D2;
+  border-radius: 4px;
+  /* width: 91.4%; */
+  width: 255px;
+  height: 42px;
+  /* margin: 2.037037037037vh auto; */
+  padding: 12px 5px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  justify-content: space-between;
+  margin-bottom: 12px;
+  /* top: 32px; */
+  background-color: white;
+}
+.PriceRangeBoxDropDownCurrencyTypeName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.PriceRangeBoxDropDownCurrencyTypeName img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.selectDisplayFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 3%;
+  margin-bottom: 16px;
+}
+.currency-Name{
+  font:normal normal normal 14px/21px Poppins;
+}
