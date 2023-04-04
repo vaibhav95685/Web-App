@@ -134,7 +134,7 @@ function App() {
   const getTenantIdByStoreName = async (storeName) => {
     try {
       const [error, result] = await utility.parseResponse(
-        getTenantByStoreName('stove')
+        getTenantByStoreName('space')
       );
       if(result.success){
         //fetch tenant detail after store exist
