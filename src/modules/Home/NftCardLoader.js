@@ -12,10 +12,8 @@ const NftCartLoader = (props) => {
                     <Link to="/" style={{ textDecoration: "none" }}>
                         <div className="image-container">
                             <Skeleton height={`187px`} />
-
                         </div>                       
                     </Link>
-
                     <div
                         className="nftTileEachDetails card-lower"
                         style={{

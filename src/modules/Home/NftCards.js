@@ -138,7 +138,7 @@ const NftCardsHome = (props) => {
                       ? nft?.compressedURL
                       : nft.link
                   }
-                  onLoad={onImageLoad}
+                   onLoad={onImageLoad}
                   onMouseDown={(e) => e.preventDefault()}
                   onContextMenu={(e) => e.preventDefault()}
                 />
