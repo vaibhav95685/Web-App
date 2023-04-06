@@ -266,7 +266,7 @@ function LikedNfts({ nft }) {
           </div>
           <div
             className="collectionName"
-            title={collectionName ? collectionName : "NFTinger Collection"}
+            title={collectionName ? collectionName : "NFT Collection"}
           >
             <Link
               style={{
@@ -277,7 +277,7 @@ function LikedNfts({ nft }) {
               {undefined !== collectionName && collectionName.length > 30
                 ? collectionName.slice(0, 30) + "..."
                 : collectionName?.length === 0
-                ? "NFTinger Collection"
+                ? "NFT Collection"
                 : collectionName}
             </Link>
           </div>

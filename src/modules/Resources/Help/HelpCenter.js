@@ -15,7 +15,7 @@ const data = [
     image: buying,
     title: "Buying",
     description:
-      "Set up your wallet, connect it to NFTinger and make purchases for your favourite NFTs.",
+      "Set up your wallet, connect it to NFT and make purchases for your favourite NFTs.",
   },
   {
     link: "/selling",

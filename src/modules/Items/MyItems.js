@@ -210,7 +210,7 @@ function MyItems(props) {
                             }
                           >
                             {undefined !== collectionName &&
-                              collectionName.length > 30 ? collectionName.slice(0, 30) + "..." : (collectionName?.length === 0 ? "NFTinger Collection" : collectionName)}
+                              collectionName.length > 30 ? collectionName.slice(0, 30) + "..." : (collectionName?.length === 0 ? "NFT Collection" : collectionName)}
 
                           </Link>
                         </div>

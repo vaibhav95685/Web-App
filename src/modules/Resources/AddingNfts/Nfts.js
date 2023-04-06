@@ -151,7 +151,7 @@ const Nfts = (props) => {
       questionText:
         "How do I search for NFTs?",
       answerText:
-        "Searching for NFTs on NFTinger is an easy task, you have to just click on Explore and browse through all the NFTs available on the marketplace.",
+        "Searching for NFTs on NFT is an easy task, you have to just click on Explore and browse through all the NFTs available on the marketplace.",
     },
   ];
 const match=BuyList.filter(val => val.questionText.toLocaleLowerCase().includes(query));
