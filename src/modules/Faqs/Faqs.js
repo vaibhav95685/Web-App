@@ -109,9 +109,9 @@ const Faqs = (props) => {
   const faqsList = [
     {
       id: 0,
-      questionText: "How do I use NFTinger?",
+      questionText: "How do I use NFT?",
       answerText:
-        "NFTinger is one single stop for all NFT trading. You can explore the marketplace, add your NFTs for sale, and buy any NFT of your choice. The Explore button will take you to the recently added NFT collectibles. Create your profile, connect your wallet and start trading NFTs.",
+        "NFT is one single stop for all NFT trading. You can explore the marketplace, add your NFTs for sale, and buy any NFT of your choice. The Explore button will take you to the recently added NFT collectibles. Create your profile, connect your wallet and start trading NFTs.",
     },
     {
       id: 1,
@@ -129,12 +129,12 @@ const Faqs = (props) => {
       id: 3,
       questionText: "How do I sell my NFT?",
       answerText:
-        "Before creating an NFT, you must connect your wallet to NFTinger. Click on Create button to add your NFT. While creating the NFT, you will get the option to put it on a fixed price sale or open auction. Select your choice and make your NFT available for purchase.",
+        "Before creating an NFT, you must connect your wallet to NFT. Click on Create button to add your NFT. While creating the NFT, you will get the option to put it on a fixed price sale or open auction. Select your choice and make your NFT available for purchase.",
     },
     {
       id: 4,
       questionText: "What type of tokens are supported on NFTinger?",
-      answerText: "Currently, NFTinger supports ERC721 tokens.",
+      answerText: "Currently, NFT supports ERC721 tokens.",
     },
   ];
   const match = faqsList.filter((val) =>

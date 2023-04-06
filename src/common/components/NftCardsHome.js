@@ -336,7 +336,7 @@ function NftCardsHome({ nft, appearance, loader,mt }) {
           </div>
           <div
             className="collectionName"
-            title={collectionName ? collectionName : "NFTinger Collection"}
+            title={collectionName ? collectionName : "NFT Collection"}
           >
             {loader ? (
               <Skeleton width={`200px`} />
@@ -353,7 +353,7 @@ function NftCardsHome({ nft, appearance, loader,mt }) {
                   {undefined !== collectionName && collectionName.length > 30
                     ? collectionName.slice(0, 30) + "..."
                     : collectionName?.length === 0
-                      ? "NFTinger Collection"
+                      ? "NFT Collection"
                       : collectionName}
                 </Link>
 

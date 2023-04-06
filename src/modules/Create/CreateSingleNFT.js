@@ -454,7 +454,7 @@ function CreateSingleNFT(props) {
     //   price.current = price.current.toString();
     // }
 
-    if (collectionName === "NFTinger collection") {
+    if (collectionName === "NFT collection") {
       blockchain.current = blockchainValue(selectedOption?.value);
       collectionValue = blockchain.current;
     } else {
@@ -487,7 +487,7 @@ function CreateSingleNFT(props) {
           nftName: name.current,
          // price: price.current,
           currency:
-            collectionName === "NFTinger collection"
+            collectionName === "NFT collection"
               ? selectedOption?.value
               : currencyValue(collectionBlockchain),
           description: description.current,
@@ -595,7 +595,7 @@ function CreateSingleNFT(props) {
       collectionObj.name,
       collectionObj.blockchain
     ];
-    if (addressId[2] === "NFTinger collection") {
+    if (addressId[2] === "NFT collection") {
       setCollectionName(addressId[2]);
       setCollectionBlockchain(addressId[3]);
       setCollectionId(addressId[0]);
@@ -682,7 +682,7 @@ function CreateSingleNFT(props) {
                       {/* <div className="abstractposter"> </div> */}
                       <div className="ethprice">
                         {price.current}
-                        {collectionName === "NFTinger Collection"
+                        {collectionName === "NFT Collection"
                           ? selectedOption?.value
                           : currencyValue(collectionBlockchain)}
                       </div>
@@ -1252,7 +1252,7 @@ function CreateSingleNFT(props) {
                           : selectedOption
                       } //when user select a option from the list
                       isDisabled={
-                        collectionName === "NFTinger collection" ? false : true
+                        collectionName === "NFT collection" ? false : true
                       }
                     ></Select>
                   </div>

@@ -685,7 +685,7 @@ const [offerLoadingModal,setOfferLoadingModal]=useState(false);
                           title={
                             nft.collectionName
                               ? nft.collectionName
-                              : "NFTinger Collection"
+                              : "NFT Collection"
                           }
                         >
                           <Link
@@ -702,7 +702,7 @@ const [offerLoadingModal,setOfferLoadingModal]=useState(false);
                               nft?.collectionName
                               ? nft?.collectionName
                               : nft?.collectionName?.length === 0
-                                ? "NFTinger Collection"
+                                ? "NFT Collection"
                                 : nft?.collectionName}
                           </Link>
                         </div>

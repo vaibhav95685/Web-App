@@ -31,7 +31,7 @@ function About({ loader }) {
         <p className="titleAbout">
           {
             loader ? <Skeleton count={6} /> :
-              'NFTinger is an NFT Marketplace for the new age decentralised world. The NFTinger tribe can create NFTs on this dedicated marketplace to showcase their Art or they can choose to sell their NFTs. NFTs of any category can be listed on this platform. So, what are you waiting for .... Go Mint,Sell, Buy and Explore... Happy NFTing.'
+              'NFT is an NFT Marketplace for the new age decentralised world. The NFT tribe can create NFTs on this dedicated marketplace to showcase their Art or they can choose to sell their NFTs. NFTs of any category can be listed on this platform. So, what are you waiting for .... Go Mint,Sell, Buy and Explore... Happy NFTing.'
           }
         </p>
         <div className="Marketplace" >
@@ -80,9 +80,9 @@ function About({ loader }) {
                         />
                         Contact Us:{" "}
                         <span>
-                          <a href="mailto:hello@NFTinger.com" style={{ color: `${fetchPalletsColor(appearance.colorPalette)}` }}>
+                          <a href="#" style={{ color: `${fetchPalletsColor(appearance.colorPalette)}` }}>
                             {
-                              "hello@NFTinger.com"
+                              "#"
                             }
                           </a>
                         </span>

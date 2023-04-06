@@ -835,7 +835,7 @@ const HomeCard = ({MetaMaskConnector}) => {
       image: Customer,
       title: "Customer centric approach",
       subtitle:
-        "NFTinger is super easy for anyone as it subtracts the the complexities of",
+        "NFT is super easy for anyone as it subtracts the the complexities of",
     },
     {
       image: Security,
@@ -973,7 +973,7 @@ const HomeCard = ({MetaMaskConnector}) => {
                   <Number>01</Number> Connect your wallet
                 </StepTitle>
                 <StepDes marginTop="22px">
-                  NFTinger is super easy for anyone as it subtracts the
+                  NFT is super easy for anyone as it subtracts the
                   complexities of
                 </StepDes>
                 <StepCreateStore onClick={MetaMaskConnector}>
@@ -1002,7 +1002,7 @@ const HomeCard = ({MetaMaskConnector}) => {
                   <Number>02</Number> Create your NFT store
                 </StepTitle>
                 <StepDes marginTop="16px">
-                  NFTinger is super easy for anyone as it subtracts the
+                  NFT is super easy for anyone as it subtracts the
                   complexities of
                 </StepDes>
                 <StepCreateStore onClick={MetaMaskConnector}>
@@ -1032,7 +1032,7 @@ const HomeCard = ({MetaMaskConnector}) => {
                   <Number>03</Number> Start selling and grow
                 </StepTitle>
                 <StepDes marginTop="16px">
-                  NFTinger is super easy for anyone as it subtracts the
+                  NFT is super easy for anyone as it subtracts the
                   complexities of
                 </StepDes>
                 <StepCreateStore onClick={MetaMaskConnector}>
@@ -1190,7 +1190,7 @@ const HomeCard = ({MetaMaskConnector}) => {
           >
             <HeadTitle>
               <CommonText marginBottom="88px" marginTop="22px">
-                NFTinger Marketplace
+                NFT Marketplace
               </CommonText>
 
               <Image

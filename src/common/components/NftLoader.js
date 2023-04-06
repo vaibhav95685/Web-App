@@ -60,7 +60,7 @@ const NftLoader = ({
                     title={
                       nft.collectionName
                         ? nft.collectionName
-                        : "NFTinger Collection"
+                        : "NFT Collection"
                     }
                     style={{
                       cursor: "pointer",
@@ -70,7 +70,7 @@ const NftLoader = ({
                     {undefined !== nft?.collectionName && nft?.collectionName
                       ? nft?.collectionName
                       : nft?.collectionName?.length === 0
-                      ? "NFTinger Collection"
+                      ? "NFT Collection"
                       : nft?.collectionName}
                   </div>
                   <div className="abstractposter"> {nft.name}</div>

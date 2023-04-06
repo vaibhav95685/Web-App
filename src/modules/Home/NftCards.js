@@ -200,7 +200,7 @@ const NftCardsHome = (props) => {
                   title={
                     nft.collectionName
                       ? nft.collectionName
-                      : "NFTinger Collection"
+                      : "NFT Collection"
                   }
                   style={{
                     textDecoration: "none",
@@ -216,7 +216,7 @@ const NftCardsHome = (props) => {
                 >
                   {nft.collectionName
                     ? nft.collectionName
-                    : "NFTinger Collection"}
+                    : "NFT Collection"}
                 </Link>
               ) : null}
             </h3>

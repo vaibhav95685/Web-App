@@ -255,7 +255,7 @@ const CreateStoreDialog = ({
                 ""
               )}
             </InputMobDiv>
-            <UrlText>.NFTinger.com</UrlText>
+            <UrlText>.NFT.com</UrlText>
             </StoreContainer>
             {errorMsg && (
               <label className="lastLabel color-red">

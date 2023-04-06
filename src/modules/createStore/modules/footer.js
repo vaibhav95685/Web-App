@@ -172,10 +172,10 @@ const Footer = ({MetaMaskConnector}) => {
     <FooterSection>
       <FooterDiv>
         <MarketPlaceDetail>
-          <NameText onClick={()=>navigate("/")}>NFTinger</NameText>
+          <NameText onClick={()=>navigate("/")}>NFT</NameText>
           {/* <AboutText>About DLT NFT marketplace</AboutText> */}
           <DesText>
-            NFTinger is a B2B Saas to launch their own white-label NFT store or
+            NFT is a B2B Saas to launch their own white-label NFT store or
             NFT marketplace without any technical knowledge.
           </DesText>
         </MarketPlaceDetail>

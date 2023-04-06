@@ -68,7 +68,7 @@ class Index extends BaseComponent {
       collectionId: data?.collectionId, // to do
       collectionName:
         data?.collectionName == undefined
-          ? "NFTinger Collection"
+          ? "NFT Collection"
           : data?.collectionName,
       ipfsUrl: data?.ipfsUrl || "",
       cdnUrl: data?.cdnUrl || "",
