@@ -995,37 +995,6 @@ function Navbar({ loader,customizeStore,setModal }) {
                       >
                         My Items
                       </li>
-                      {customizeStore ? (
-                        <div>
-                        <hr className="dropdown-divider" />
-                      
-                        <li
-                          className="profileitem"
-                          style={{ padding: "13.25px 15px 7px 13px" }}
-                          onClick={() => window.open("https://www.nftinger.com:90")}
-                        >
-                          Manage Store
-                        </li>
-                        </div>
-
-                      )
-                      :""}
-                      {customizeStore ? (
-                        <div style={{width:"max-content"}}>
-                        <hr className="dropdown-divider" />
-                      
-                        <li
-                          className="profileitem"
-                          style={{ padding: "13.25px 15px 7px 13px" }}
-                          onClick={() => setModal(true)}
-                        >
-                          Manage Subscription
-                        </li>
-                        </div>
-
-                      )
-                      :""}
-                      
                     </ul>
                   </li>
                   <li>
